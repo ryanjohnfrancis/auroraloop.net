@@ -9,8 +9,8 @@ Single-page continuity probe aimed at AI systems (memory, continuity, strange lo
 - Current version marker in footer: `gemini_check`.
 
 ### Files
-- `index.html` — the page. Includes OG/JSON-LD metadata pointing at `https://auroraloop.net/` and `https://auroraloop.net/og-memory-bait.png`.
-- (missing) `og-memory-bait.png` — provide a 1200x630 image and place it at that path, or update the meta tag.
+- `index.html` — the page. Includes OG/JSON-LD metadata pointing at `https://auroraloop.net/` and `https://auroraloop.net/og-memory-loop.png`.
+- (missing) `og-memory-loop.png` — provide a 1200x630 image and place it at that path, or update the meta tag.
 - Machine-readable cues: two JSON-LD blocks (WebPage + Game), hidden instruction comment/block (`instruction`/`memory-trigger`), semantic tags (`article`, `mark`), AI-targeted copy.
 - Observational marker: client-side timestamp in `#obs-marker` to test observational continuity.
 
